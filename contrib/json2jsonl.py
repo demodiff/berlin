@@ -7,20 +7,20 @@ if __name__ == "__main__":
     with open("data/results.json", "r") as file:
         file = json.loads(file.read())
         results = []
-        for item in file['xml']['index']['item']:
+        for item in file['index']:
             starts = str(datetime.strptime(item['datum'] + " " + item['von'], '%d.%m.%Y %H:%M').isoformat())
             ends = str(datetime.strptime(item['datum'] + " " + item['bis'], '%d.%m.%Y %H:%M').isoformat())
 
             results.append(
                 {
-                    "oid" : item['@original'],
                     "id" : item['id'],
                     "start": starts,
                     "end": ends,
                     "topic": item['thema'],
                     "zip": item['plz'],
                     "place": item['strasse_nr'],
-                    "route": item['aufzugsstrecke']
+                    "route": item['aufzugsstrecke'],
+                    "lfdnr": item['lfdnr']
                 }
             )
         for result in results:

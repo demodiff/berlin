@@ -14,14 +14,8 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
 
-    - name: Install dependency
-      run: |
-        python3 -m pip install xq
-
     - name: Parse demo announcements
-      run: |
-        cat data/scraped.xml | xq > data/results.json
-        python3 contrib/json2jsonl.py > data/results.jsonl
+      run: python3 contrib/json2jsonl.py > data/results.jsonl
 
     - name: Commit and push
       uses: github-actions-x/commit@v2.8

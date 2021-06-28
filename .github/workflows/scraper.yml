@@ -13,9 +13,9 @@ jobs:
 
     - name: Download demo announcements
       run: |
-        rm data/scraped.xml
+        rm data/results.json
         pushd data
-        wget -O scraped.xml https://www.berlin.de/polizei/service/versammlungsbehoerde/versammlungen-aufzuege/index.php/index/all.xml
+        wget -O results.json https://www.berlin.de/polizei/service/versammlungsbehoerde/versammlungen-aufzuege/index.php/index/all.json
         popd
     - name: Commit and push
       uses: github-actions-x/commit@v2.8
