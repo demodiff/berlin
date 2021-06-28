@@ -16,7 +16,7 @@ jobs:
 
     - name: Install dependency
       run: |
-        python3 -m pip install jsonlines xq
+        python3 -m pip install xq
 
     - name: Parse demo announcements
       run: |

@@ -1,12 +1,11 @@
 #!/usr/bin/env python3
 
 import json
-import jsonlines
 from datetime import datetime
 
 if __name__ == "__main__":
     with open("data/results.json", "r") as file:
-        file = json.load(file)
+        file = json.loads(file.read())
         results = []
         for item in file['xml']['index']['item']:
             starts = str(datetime.strptime(item['datum'] + " " + item['von'], '%d.%m.%Y %H:%M').isoformat())
