@@ -22,7 +22,7 @@ jobs:
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         push-branch: 'main'
-        commit-message: 'Parse demo announcements'
+        commit-message: 'parser: add demo announcements'
         rebase: true
         name: 'parser'
         files: data/

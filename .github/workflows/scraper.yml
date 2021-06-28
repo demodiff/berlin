@@ -23,7 +23,7 @@ jobs:
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         push-branch: 'main'
-        commit-message: 'Scrape demo announcements'
+        commit-message: 'scraper: add demo announcements'
         rebase: true
         name: 'scraper'
         files: data/
