@@ -1,0 +1,35 @@
+name: parser
+
+on:
+  workflow_run:
+    workflows: ["scraper"]
+    types:
+      - completed
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Install dependency
+      run: |
+        python3 -m pip install jsonlines
+        brew install yq
+
+    - name: Parse demo announcements
+      run: |
+        cat data/scraped.xml | xq > data/results.json
+        python3 json2jsonl.py > data/results.jsonl
+
+    - name: Commit and push
+      uses: github-actions-x/commit@v2.8
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        push-branch: 'main'
+        commit-message: 'Parse demo announcements'
+        rebase: true
+        name: 'parser'
+        files: data/

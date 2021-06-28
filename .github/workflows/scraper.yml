@@ -1,0 +1,28 @@
+name: scraper
+
+on:
+  push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Download demo announcements
+      run: |
+        rm data/scraped.xml
+        pushd data
+        wget -O scraped.xml https://www.berlin.de/polizei/service/versammlungsbehoerde/versammlungen-aufzuege/index.php/index/all.xml
+        popd
+    - name: Commit and push
+      uses: github-actions-x/commit@v2.8
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        push-branch: 'main'
+        commit-message: 'Scrape demo announcements'
+        rebase: true
+        name: 'scraper'
+        files: data/
