@@ -17,7 +17,7 @@ jobs:
     - name: Install dependency
       run: |
         python3 -m pip install jsonlines
-        brew install yq
+        brew install yq@3
 
     - name: Parse demo announcements
       run: |
