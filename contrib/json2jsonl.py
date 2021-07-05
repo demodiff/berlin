@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/egv python3
 
 import json
 from datetime import datetime
@@ -13,14 +13,12 @@ if __name__ == "__main__":
 
             results.append(
                 {
-                    "id" : item['id'],
                     "start": starts,
                     "end": ends,
                     "topic": item['thema'],
                     "zip": item['plz'],
                     "place": item['strasse_nr'],
-                    "route": item['aufzugsstrecke'],
-                    "lfdnr": item['lfdnr']
+                    "route": item['aufzugsstrecke']
                 }
             )
         for result in results:
