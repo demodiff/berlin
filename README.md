@@ -1,4 +1,4 @@
-demodiff: de-berlin
+demodiff: berlin
 ===================
 
 Since March 2021, Polizei Berlin announces demonstrations and other
