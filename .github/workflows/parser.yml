@@ -21,7 +21,6 @@ jobs:
 
     - name: Parse demo announcements
       run: |
-        pip install s
         python3 contrib/json2jsonl.py > data/results.jsonl
         python3 contrib/jsonl2stats.py
 
