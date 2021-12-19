@@ -1,4 +1,4 @@
-#!/usr/bin/egv python3
+#!/usr/bin/env python3
 
 import json, csv
 import pandas as pd 

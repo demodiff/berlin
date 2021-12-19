@@ -14,9 +14,14 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
 
+    - name: Install Python dependencies
+      uses: py-actions/py-dependency-install@v3
+      with:
+        path: "requirements.txt"
+
     - name: Parse demo announcements
       run: |
-        pip install pandas
+        pip install s
         python3 contrib/json2jsonl.py > data/results.jsonl
         python3 contrib/jsonl2stats.py
 
