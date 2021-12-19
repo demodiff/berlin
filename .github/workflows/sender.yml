@@ -10,9 +10,10 @@ jobs:
   tweet:
     runs-on: ubuntu-latest
     steps:
-      - uses: ethomson/send-tweet-action@v1
+      - uses: Eomm/why-don-t-you-tweet@v1
         with:
-          status: "Die Polizei Berlin aktualisierte ihre Versammlungsliste. https://github.com/demodiff/berlin/commit/${{ env.GITHUB_SHA }}"
+          tweet-message: "Die Polizei Berlin aktualisierte ihre Versammlungsliste. #demodiff https://github.com/demodiff/berlin/commit/${{ env.GITHUB_SHA }}"
+        env:
           consumer-key: ${{ secrets.TWITTER_CONSUMER_API_KEY }}
           consumer-secret: ${{ secrets.TWITTER_CONSUMER_API_SECRET }}
           access-token: ${{ secrets.TWITTER_ACCESS_TOKEN }}
