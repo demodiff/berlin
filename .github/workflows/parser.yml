@@ -21,8 +21,8 @@ jobs:
 
     - name: Parse demo announcements
       run: |
-        python3 contrib/json2jsonl.py > data/results.jsonl
-        python3 contrib/jsonl2stats.py
+        python3 scripts/json2jsonl.py > data/results.jsonl
+        python3 scripts/jsonl2stats.py
 
     - name: Commit and push
       uses: github-actions-x/commit@v2.8
