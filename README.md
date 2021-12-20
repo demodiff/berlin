@@ -18,7 +18,8 @@ and parses it to JSON Lines. By this, a diff is created in the git-log.
 ## Links
 - [latest diffs](https://github.com/demodiff/berlin/commits/main/data/results.jsonl)
 - [latest zip code statistics](https://github.com/demodiff/berlin/commits/main/data/stats-zips.csv)
-- [tweet bot](https://twitter.com/demodiff)
+- [RSS feed for diffs (and development)](https://github.com/demodiff/berlin/commits.atom)
+- [tweet bot for diffs (excluding development)](https://twitter.com/demodiff)
 
 ## Politics
 
