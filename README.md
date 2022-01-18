@@ -43,7 +43,7 @@ Daher werden im Folgenden drei zentrale Punkte hervorgehoben:
 3. *Politik:* Weitere Städte und Bundesländer sollten diese Daten
    veröffentlichen.
    
-Dir fallen weitere Punkt ein? [Öffne gerne ein Issue.](https://github.com/demodiff/berlin/issues/new).
+Dir fallen weitere Punkt ein? [Öffne gerne ein Issue](https://github.com/demodiff/berlin/issues/new).
 
 ## Workflows
 
