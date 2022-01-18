@@ -44,7 +44,7 @@ historical data and keeping the police accountable.
 
 Thus three key focus points are highlighted below:
 
-1. *Scientific work*: Analysing the data can and shall
+1. *Science*: Analysing the data can and shall
    always be possible. 
 2. *Activism*: If you want to stay up-to-date or
    analyse past assemblies, the data may help.
