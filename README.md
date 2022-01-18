@@ -34,7 +34,7 @@ project.
 - [Latest diffs](https://github.com/demodiff/berlin/commits/main/data/results.jsonl)
 - [Latest zip code statistics](https://github.com/demodiff/berlin/commits/main/data/stats-zips.csv)
 - [RSS feed for diffs (and development)](https://github.com/demodiff/berlin/commits.atom)
-- [tweet bot for diffs (excluding development)](https://twitter.com/demodiff)
+- [Tweet bot for diffs (excluding development)](https://twitter.com/demodiff)
 
 ## Focus
 
