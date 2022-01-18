@@ -1,20 +1,15 @@
 demodiff: berlin
 ===================
 
-> Diffing political assemblies for Berlin, Germany.
+Seit dem März 2021 kündigt die Polizei Berlin Demonstrationen und andere
+politische Versammlungen [auf ihrer Website berlin.de](https://www.berlin.de/polizei/service/versammlungsbehoerde/versammlungen-aufzuege/)
+an. Dieses Repository [scrapt den JSON-Endpunkt](https://www.berlin.de/polizei/service/versammlungsbehoerde/versammlungen-aufzuege/index.php/index/all.json)
+und parst ihn zu JSON-Lines. Dadurch wird ein Diff im `git-log` erstellt.
 
-Since March 2021, Polizei Berlin announces demonstrations and other
-political assemblies [on its website
-berlin.de](https://www.berlin.de/polizei/service/versammlungsbehoerde/versammlungen-aufzuege/).
-This repository scrapes [the JSON
-endpoint](https://www.berlin.de/polizei/service/versammlungsbehoerde/versammlungen-aufzuege/index.php/index/all.json)
-and parses it to JSON Lines. By this, a diff is created in the git-log.
+## Vorwort
 
-## Preface
-
-Polizei Berlin is obliged to publish assemblies
-and demonstrations since the amendment of February
-23rd 2021.
+Die Polizei Berlin ist seit der Novelle vom 23. Februar 2021 verpflichtet,
+Versammlungen und Demonstrationen zu veröffentlichen.
 
 > Die zuständige Behörde hat Ort, Zeit und Thema
 > der angezeigten Versammlung zu veröffentlichen.
@@ -22,59 +17,52 @@ and demonstrations since the amendment of February
 > sie auch den Streckenverlauf zu veröffentlichen.
 > (*§ 12 Absatz 8 VersFG BE*)
 
-But the police is not obliged to keep records of
-past events. This shall be done by this project,
-that is not connected to any official entitiy though.
+Aber die Polizei ist nicht verpflichtet, Aufzeichnungen über vergangene
+Ereignisse zu veröffentlichen. Dies soll durch dieses Projekt geschehen, das
+allerdings nicht an eine offizielle Stelle angebunden ist.
 
 ## Links
 
-Please see below for relevant links regarding this
-project.
+An dieser Stelle gibt es relevante Links des Projekts.
 
-- [Latest diffs](https://github.com/demodiff/berlin/commits/main/data/results.jsonl)
-- [Latest zip code statistics](https://github.com/demodiff/berlin/commits/main/data/stats-zips.csv)
-- [RSS feed for diffs (and development)](https://github.com/demodiff/berlin/commits.atom)
-- [Tweet bot for diffs (excluding development)](https://twitter.com/demodiff)
+- [Letzte Diffs](https://github.com/demodiff/berlin/commits/main/data/results.jsonl)
+- [Letzte Postleitzahl-Statistiken](https://github.com/demodiff/berlin/commits/main/data/stats-zips.csv)
+- [RSS-Feed für Diffs (mit Developemnt)](https://github.com/demodiff/berlin/commits.atom)
+- [Twitter-Bot für Diffs (ohne development)](https://twitter.com/demodiff)
 
-## Focus
+## Fokus
 
-Since Polizei Berlin depublishes past assemblies from
-their website, this project contributes to conserving
-historical data and keeping the police accountable.
+Da die Polizei Berlin vergangene Versammlungen auf ihrer Website
+veröffentlicht, trägt dieses Projekt dazu bei, historische Daten zu bewahren
+und die Polizei zur Rechenschaft zu ziehen.
 
-Thus three key focus points are highlighted below:
+Daher werden im Folgenden drei zentrale Punkte hervorgehoben:
 
-1. *Science*: Analysing the data can and shall
-   always be possible. 
-2. *Activism*: If you want to stay up-to-date or
-   analyse past assemblies, the data may help.
-3. *Politics:* Further cities and states should
-   implement, that assembly authorities shall keep
-   records of demonstrations.
+1. *Wissenschaft*: Eine Analyse der Daten kann und soll für immer möglich sein.
+2. *Aktivismus*: Die Daten können helfen, auf dem aktuellenStand zu bleiben.
+3. *Politik:* Weitere Städte und Bundesländer sollten diese Daten
+   veröffentlichen.
    
-You got further points? [Please feel free to open an
-issue](https://github.com/demodiff/berlin/issues/new).
+Dir fallen weitere Punkt ein? [Öffne gerne ein Issue.](https://github.com/demodiff/berlin/issues/new).
 
 ## Workflows
-[Two GitHub workflows](https://github.com/demodiff/berlin/tree/main/.github/workflows)
-keep this repo working: the scraper and the parser.
 
-The scraper downloads the results of the JSON endpoint
-with `wget` and commits it to the repo under
-`data/results.json`.
+[Zwei GitHub-Workflows](https://github.com/demodiff/berlin/tree/main/.github/workflows)
+halten dieses Projekt am Laufen: den Scraper und den Parser.
 
-The parser converts the downloaded state to JSON Lines,
-so the diff is human readable. It also translates the keys
-of the JSON into the English language and omits values that
-– so far – are not needed (such as the Laufende Nummer).
+Der Scraper lädt die Ergebnisse des JSON-Endpunkts mit wget herunter und
+überträgt sie in das Repo unter `data/results.json`.
 
-A third workflow is outsourced to the IFTTT service. It
-tweets when a new commit is made by the parser. [Have a look
-at the twitter account here](https://twitter.com/demodiff).
+Der Parser konvertiert den heruntergeladenen Status in JSON-Zeilen, so dass das
+Diff für Menschen lesbar ist. Er übersetzt auch die Keys des JSON in die
+englische Sprache und lässt Values weg, die - bisher - nicht benötigt werden
+(wie z.B. die Laufende Nummer).
 
-## Contact & Legal
+Ein dritter Workflow ist an den IFTTT-Dienst ausgelagert. Er twittert, wenn ein
+neuer Commit vom Parser gemacht wird. [Schau Dir den Twitter-Bot hier an](https://twitter.com/demodiff).
 
-In case you have questions or threatening letters, 
-please contact [Lennart Mühlenmeier](https://lnrt.de/).
+## Kontakt & Rechtliches
 
-_LICENSE to be added._
+Falls Sie Fragen oder Drohbriefe haben, wenden Sie sich bitte an [Lennart Mühlenmeier](https://lnrt.de).
+
+_LICENSE wird noch hinzugefügt._
