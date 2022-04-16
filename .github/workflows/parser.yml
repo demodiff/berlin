@@ -23,6 +23,9 @@ jobs:
       run: |
         python3 scripts/json2jsonl.py > data/results.jsonl
         python3 scripts/jsonl2stats.py
+        
+    - name: Temporarily fix permission error in git # https://github.com/actions/checkout/issues/760#issuecomment-1097501613
+        run: git config --global --add safe.directory /__w/demodiff/berlin
 
     - name: Commit and push
       uses: github-actions-x/commit@v2.8
