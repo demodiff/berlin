@@ -19,11 +19,8 @@ jobs:
         wget -O results.json https://www.berlin.de/polizei/service/versammlungsbehoerde/versammlungen-aufzuege/index.php/index/all.json
         popd
 
-    - name: Temporarily fix permission error in git # https://github.com/actions/checkout/issues/760#issuecomment-1097501613
-      run: git config --global --add safe.directory /github/workspace
-
     - name: Commit and push
-      uses: github-actions-x/commit@v2.8
+      uses: github-actions-x/commit@v2.9
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         push-branch: 'main'
