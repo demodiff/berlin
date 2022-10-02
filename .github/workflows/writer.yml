@@ -16,7 +16,7 @@ jobs:
 
     - name: Write demo announcements
       run: |
-        git show HEAD:data/results.jsonl > ../data/jsonl/$(git show -s --format=%cd --date=format:'%Y%m%d-%H%M%S')-$(git rev-parse HEAD).jsonl
+        git show HEAD:data/results.jsonl > data/jsonl/$(git show -s --format=%cd --date=format:'%Y%m%d-%H%M%S')-$(git rev-parse HEAD).jsonl
         
     - name: Commit and push
       uses: github-actions-x/commit@v2.9
