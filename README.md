@@ -33,8 +33,7 @@ An dieser Stelle gibt es relevante Links des Projekts.
 ## Fokus
 
 Da die Polizei Berlin vergangene Versammlungen auf ihrer Website
-veröffentlicht, trägt dieses Projekt dazu bei, historische Daten zu bewahren
-und die Polizei zur Rechenschaft zu ziehen.
+veröffentlicht, trägt dieses Projekt dazu bei, historische Daten zu bewahren.
 
 Daher werden im Folgenden drei zentrale Punkte hervorgehoben:
 
