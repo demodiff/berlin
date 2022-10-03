@@ -23,7 +23,7 @@ jobs:
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         push-branch: 'main'
-        commit-message: 'Automatisierte Aktualisierung der Versammlungen'
+        commit-message: 'ran writer'
         rebase: true
         name: 'writer'
         files: data/jsonl/
