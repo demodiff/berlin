@@ -17,6 +17,11 @@ jobs:
     - name: Write demo announcements
       run: |
         git show HEAD:data/results.jsonl > data/jsonl/$(git show -s --format=%cd --date=format:'%Y%m%d-%H%M%S')-$(git rev-parse HEAD).jsonl
+
+    - name: Remove duplicates
+      run: | 
+        sudo apt-get install -y fclones
+        fclones group data/jsonl/ | fclones remove
         
     - name: Commit and push
       uses: github-actions-x/commit@v2.9
