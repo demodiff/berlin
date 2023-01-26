@@ -1,8 +1,8 @@
 name: releaser
 
-on: push
-#  schedule:
-#    - cron : '0 0 * * 0'
+on:
+  schedule:
+    - cron : '0 0 * * 0'
 
 jobs:
   build:
@@ -21,8 +21,6 @@ jobs:
       uses: svenstaro/upload-release-action@v2
       with:
         repo_token: ${{ secrets.GITHUB_TOKEN }}
-        file: data/jsonl/*
         tag: ${{ steps.version.outputs.builddate }}
         overwrite: false
-        file_glob: true
         release_name: ${{ steps.version.outputs.builddate }} 
