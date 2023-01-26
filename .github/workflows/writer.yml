@@ -20,7 +20,7 @@ jobs:
 
     - name: Remove duplicates
       run: | 
-        sudo apt-get install -y fclones
+        sudo snap install fclones
         fclones group data/jsonl/ | fclones remove
         
     - name: Commit and push
