@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 import os
 import glob
 import re

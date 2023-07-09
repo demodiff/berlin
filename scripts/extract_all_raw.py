@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 import os
 from datetime import datetime
 
