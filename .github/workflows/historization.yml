@@ -1,0 +1,74 @@
+name: Historization
+
+on:
+  workflow_dispatch:
+  #schedule:
+  #  - cron: '*/30 * * * *'
+
+jobs:
+  extract_all_raw:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+
+    - name: Checkout demodiff/daten
+      uses: actions/checkout@v3
+      with:
+        repository: demodiff/daten
+        token: ${{ secrets.GITHUB_TOKEN }}
+        path: data_raw
+    - name: Checkout demodiff_berlin
+      uses: actions/checkout@v3
+      with:
+        repository: demodiff/berlin
+        path: demodiff_berlin
+        fetch-depth: 0
+    
+    - name: Install git
+      run: sudo apt-get install -y git
+      
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v3
+      with:
+        python-version: "3.10"
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install flake8 pytest
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+    - name: Lint with flake8
+      run: |
+        # stop the build if there are Python syntax errors or undefined names
+        flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
+        # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
+        flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+    - name: Extract all raw
+      run: |
+        python scripts/extract_all_raw.py
+    
+    - name: Remove duplicates
+      run: | 
+        sudo snap install fclones
+        fclones group data_raw/ > dupes.txt
+        cat dupes.txt
+        fclones remove < dupes.txt
+    
+    - name: Create summary
+      run: |
+        python scripts/create_summary.py
+    
+    - name: Commit files
+      run: |
+        cd data_raw
+        git config --local user.email "actions@users.noreply.github.com"
+        git config --local user.name "demodiffbot"
+        git add --all
+        git diff-index --quiet HEAD || git commit -a -m "Berlin: Add changes"
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        repository: demodiff/daten
+        directory: data_raw
+        github_token: ${{ secrets.GITHUB_TOKEN }}
