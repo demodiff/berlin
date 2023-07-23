@@ -25,9 +25,6 @@ jobs:
         repository: demodiff/berlin
         path: demodiff_berlin
         fetch-depth: 0
-    
-    - name: Install git
-      run: sudo apt-get install -y git
       
     - name: Set up Python 3.10
       uses: actions/setup-python@v3
