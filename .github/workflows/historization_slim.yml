@@ -8,7 +8,7 @@ on:
       - completed
 
 jobs:
-  extract_all_raw:
+  add_latest_results_if_changed:
     runs-on: ubuntu-latest
 
     steps:
