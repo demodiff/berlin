@@ -71,4 +71,4 @@ jobs:
       with:
         repository: demodiff/daten
         directory: data_raw
-        github_token: ${{ secrets.GITHUB_TOKEN }}
+        github_token: ${{ secrets.PAT }}
