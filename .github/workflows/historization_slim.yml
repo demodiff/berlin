@@ -44,9 +44,11 @@ jobs:
         flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
         # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
-    - name: Extract all raw
+
+    - name: Historize latest results.json
       run: |
-        python scripts/extract_all_raw.py
+        git show HEAD:data/results.json > data_raw/berlin/$(git show -s --format=%cd --date=format:'%Y%m%d_%H%M%S')_$(git rev-parse HEAD).json
+
     
     - name: Remove duplicates
       run: | 
