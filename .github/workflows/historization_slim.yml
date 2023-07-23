@@ -2,8 +2,10 @@ name: Historization (slim)
 
 on:
   workflow_dispatch:
-  #schedule:
-  #  - cron: '*/30 * * * *'
+  workflow_run:
+    workflows: ["scraper"]
+    types:
+      - completed
 
 jobs:
   extract_all_raw:
