@@ -58,7 +58,7 @@ def create_summary(repo_path, file_path, raw_output_path):
 
 if __name__ == "__main__":
     if os.getenv("CI") == 'true':
-        create_summary('demodiff_berlin', 'data/results.json', 'data_raw')
+        create_summary('demodiff_berlin', 'data/results.json', 'data_raw/berlin')
     else:
         from settings import repo_path, file_path, perform_output_dir_cleanup, raw_output_path
         create_summary(repo_path, file_path, raw_output_path)
