@@ -53,7 +53,7 @@ def extract_all_raw(repo_path, file_path, raw_output_path, perform_output_dir_cl
 
 if __name__ == "__main__":
     if os.getenv("CI") == 'true':
-        extract_all_raw('demodiff_berlin', 'data/results.json', 'data_raw')
+        extract_all_raw('demodiff_berlin', 'data/results.json', 'data_raw/berlin')
     else:
         from settings import repo_path, file_path, perform_output_dir_cleanup, raw_output_path
         extract_all_raw(repo_path, file_path, raw_output_path, perform_output_dir_cleanup)
