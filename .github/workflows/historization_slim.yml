@@ -19,12 +19,6 @@ jobs:
         repository: demodiff/daten
         token: ${{ secrets.PAT }}
         path: data_raw
-    - name: Checkout demodiff_berlin
-      uses: actions/checkout@v3
-      with:
-        repository: demodiff/berlin
-        path: demodiff_berlin
-        fetch-depth: 0
       
     - name: Set up Python 3.10
       uses: actions/setup-python@v3
@@ -35,7 +29,6 @@ jobs:
       run: |
         git show HEAD:data/results.json > data_raw/berlin/$(git show -s --format=%cd --date=format:'%Y%m%d_%H%M%S')_$(git rev-parse HEAD).json
 
-    
     - name: Remove duplicates
       run: | 
         sudo snap install fclones
@@ -54,7 +47,7 @@ jobs:
         git config --local user.name "demodiffbot"
         git add --all
         git diff-index --quiet HEAD || git commit -a -m "Berlin: Add changes"
-        
+
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
