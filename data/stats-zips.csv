@@ -3,10 +3,10 @@
 1,Moabit,10557,146
 2,Tiergarten,10557,146
 3,Mitte,10179,129
-4,Mitte,10117,127
+4,Mitte,10117,129
 5,Alt-Treptow,12435,125
 6,Plänterwald,12435,125
-7,Mitte,10178,110
+7,Mitte,10178,111
 8,Blankenburg,13129,36
 9,StadtrandsiedlungMalchow,13129,36
 10,Schöneberg,12101,35
@@ -19,10 +19,10 @@
 17,Wittenau,13509,26
 18,Friedenau,12163,24
 19,Steglitz,12163,24
-20,Kreuzberg,10967,19
-21,Neukölln,10967,19
-22,Charlottenburg,10585,19
-23,PrenzlauerBerg,10437,19
+20,PrenzlauerBerg,10437,20
+21,Kreuzberg,10967,19
+22,Neukölln,10967,19
+23,Charlottenburg,10585,19
 24,Dahlem,14193,18
 25,Grunewald,14193,18
 26,Nikolassee,14193,18
