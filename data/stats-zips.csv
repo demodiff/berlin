@@ -1,9 +1,9 @@
 ,district,zip,count
 0,Mitte,10178,224
 1,Mitte,10117,123
-2,Hansaviertel,10557,89
-3,Moabit,10557,89
-4,Tiergarten,10557,89
+2,Hansaviertel,10557,87
+3,Moabit,10557,87
+4,Tiergarten,10557,87
 5,Mitte,10179,85
 6,Alt-Treptow,12435,59
 7,Plänterwald,12435,59
@@ -78,4 +78,6 @@
 76,Moabit,10559,1
 77,Tiergarten,10559,1
 78,Lichtenberg,10369,1
-79,Charlottenburg,10627,1
+79,Schöneberg,10825,1
+80,Wilmersdorf,10825,1
+81,Charlottenburg,10627,1
