@@ -1,10 +1,10 @@
 ,district,zip,count
 0,Mitte,10178,113
-1,Mitte,10117,99
+1,Mitte,10117,106
 2,Mitte,10179,63
-3,Hansaviertel,10557,53
-4,Moabit,10557,53
-5,Tiergarten,10557,53
+3,Hansaviertel,10557,54
+4,Moabit,10557,54
+5,Tiergarten,10557,54
 6,Charlottenburg-Nord,13353,43
 7,Gesundbrunnen,13353,43
 8,Tiergarten,13353,43
@@ -22,7 +22,7 @@
 20,Schöneberg,12101,17
 21,Tempelhof,12101,17
 22,Kreuzberg,10999,13
-23,Kreuzberg,10997,12
+23,Kreuzberg,10997,13
 24,PrenzlauerBerg,10437,10
 25,Kreuzberg,10967,9
 26,Neukölln,10967,9
