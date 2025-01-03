@@ -1,6 +1,6 @@
 ,district,zip,count
 0,Mitte,10179,363
-1,Mitte,10117,121
+1,Mitte,10117,122
 2,Mitte,10178,113
 3,Schöneberg,12101,112
 4,Tempelhof,12101,112
@@ -21,7 +21,7 @@
 19,Wedding,13353,34
 20,Blankenburg,13129,26
 21,StadtrandsiedlungMalchow,13129,26
-22,Kreuzberg,10999,16
+22,Kreuzberg,10999,17
 23,Köpenick,12559,12
 24,Müggelheim,12559,12
 25,Mitte,10119,12
@@ -42,9 +42,9 @@
 40,Wilhelmstadt,13597,7
 41,Alt-Treptow,12435,5
 42,Plänterwald,12435,5
-43,Friedenau,10827,4
-44,Schöneberg,10827,4
-45,Köpenick,12555,3
+43,Köpenick,12555,4
+44,Friedenau,10827,4
+45,Schöneberg,10827,4
 46,PrenzlauerBerg,10407,3
 47,Buch,13125,3
 48,FranzösischBuchholz,13125,3
