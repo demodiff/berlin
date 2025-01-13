@@ -1,7 +1,7 @@
 ,district,zip,count
 0,Mitte,10179,353
-1,Mitte,10117,130
-2,Mitte,10178,112
+1,Mitte,10117,131
+2,Mitte,10178,111
 3,Friedenau,12163,62
 4,Steglitz,12163,62
 5,Schöneberg,12101,61
@@ -16,9 +16,9 @@
 14,Lichterfelde,14169,50
 15,Zehlendorf,14169,50
 16,Charlottenburg,10585,50
-17,Hansaviertel,10557,47
-18,Moabit,10557,47
-19,Tiergarten,10557,47
+17,Hansaviertel,10557,48
+18,Moabit,10557,48
+19,Tiergarten,10557,48
 20,Charlottenburg-Nord,13353,33
 21,Gesundbrunnen,13353,33
 22,Tiergarten,13353,33
