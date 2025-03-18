@@ -1,6 +1,6 @@
 ,district,zip,count
 0,Mitte,10179,289
-1,Mitte,10117,196
+1,Mitte,10117,198
 2,Mitte,10178,148
 3,Kreuzberg,10999,77
 4,Friedenau,12163,50
@@ -51,9 +51,9 @@
 49,Schöneberg,10787,6
 50,Tiergarten,10787,6
 51,Lichtenberg,10365,6
-52,Charlottenburg,10789,4
-53,Schöneberg,10789,4
-54,Wilmersdorf,10789,4
+52,Charlottenburg,10789,5
+53,Schöneberg,10789,5
+54,Wilmersdorf,10789,5
 55,Friedrichsfelde,10318,3
 56,Karlshorst,10318,3
 57,Pichelsdorf,13597,2
