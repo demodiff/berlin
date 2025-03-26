@@ -1,8 +1,8 @@
 ,district,zip,count
 0,Mitte,10179,283
-1,Mitte,10117,181
-2,Mitte,10178,144
-3,Kreuzberg,10999,67
+1,Mitte,10117,186
+2,Mitte,10178,145
+3,Kreuzberg,10999,66
 4,Schöneberg,12101,49
 5,Tempelhof,12101,49
 6,Friedenau,12163,48
@@ -35,8 +35,8 @@
 33,Wittenau,13509,14
 34,Blankenburg,13129,14
 35,StadtrandsiedlungMalchow,13129,14
-36,Kreuzberg,10997,14
-37,Friedrichshain,10245,13
+36,Friedrichshain,10245,13
+37,Kreuzberg,10997,13
 38,Buch,13125,12
 39,FranzösischBuchholz,13125,12
 40,Karow,13125,12
