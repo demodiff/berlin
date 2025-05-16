@@ -1,5 +1,5 @@
 ,district,zip,count
-0,Mitte,10117,341
+0,Mitte,10117,340
 1,Mitte,10179,234
 2,Alt-Treptow,12435,204
 3,Plänterwald,12435,204
@@ -33,9 +33,9 @@
 31,Gesundbrunnen,13353,18
 32,Tiergarten,13353,18
 33,Wedding,13353,18
-34,Mitte,10119,10
-35,PrenzlauerBerg,10119,10
-36,Kreuzberg,10997,10
+34,Kreuzberg,10997,12
+35,Mitte,10119,10
+36,PrenzlauerBerg,10119,10
 37,Köpenick,12559,9
 38,Müggelheim,12559,9
 39,Friedrichshagen,12587,8
