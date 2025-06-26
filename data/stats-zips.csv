@@ -1,5 +1,5 @@
 ,district,zip,count
-0,Mitte,10117,222
+0,Mitte,10117,224
 1,Mitte,10179,194
 2,Alt-Treptow,12435,165
 3,Plänterwald,12435,165
@@ -58,12 +58,12 @@
 56,Müggelheim,12559,4
 57,Britz,12349,3
 58,Buckow,12349,3
-59,PrenzlauerBerg,10437,3
-60,Kreuzberg,10969,3
-61,Mitte,10969,3
-62,Friedrichsfelde,10317,3
-63,Lichtenberg,10317,3
-64,Rummelsburg,10317,3
+59,Kreuzberg,10969,3
+60,Mitte,10969,3
+61,Friedrichsfelde,10317,3
+62,Lichtenberg,10317,3
+63,Rummelsburg,10317,3
+64,PrenzlauerBerg,10437,3
 65,Baumschulenweg,12437,3
 66,Johannisthal,12437,3
 67,Niederschöneweide,12437,3
