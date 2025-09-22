@@ -1,5 +1,5 @@
 ,district,zip,count
-0,Mitte,10117,393
+0,Mitte,10117,398
 1,Mitte,10179,104
 2,Kreuzberg,10999,86
 3,Alt-Treptow,12435,79
@@ -48,12 +48,12 @@
 46,Neukölln,10965,5
 47,Schöneberg,10965,5
 48,Tempelhof,10965,5
-49,Charlottenburg,10623,3
-50,Neukölln,12043,3
-51,Gesundbrunnen,13357,3
-52,Wedding,13357,3
-53,Charlottenburg,10707,3
-54,Wilmersdorf,10707,3
+49,Charlottenburg,10623,4
+50,Neukölln,12043,4
+51,Charlottenburg,10707,4
+52,Wilmersdorf,10707,4
+53,Gesundbrunnen,13357,3
+54,Wedding,13357,3
 55,Mitte,10119,3
 56,PrenzlauerBerg,10119,3
 57,Baumschulenweg,12437,3
