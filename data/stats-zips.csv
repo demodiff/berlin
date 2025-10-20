@@ -1,7 +1,7 @@
 ,district,zip,count
-0,Mitte,10117,329
+0,Mitte,10117,328
 1,Mitte,10179,76
-2,Mitte,10178,63
+2,Mitte,10178,64
 3,Charlottenburg-Nord,13353,47
 4,Gesundbrunnen,13353,47
 5,Tiergarten,13353,47
@@ -11,9 +11,9 @@
 9,Kreuzberg,10999,39
 10,Blankenburg,13129,36
 11,StadtrandsiedlungMalchow,13129,36
-12,Hansaviertel,10557,33
-13,Moabit,10557,33
-14,Tiergarten,10557,33
+12,Hansaviertel,10557,34
+13,Moabit,10557,34
+14,Tiergarten,10557,34
 15,Borsigwalde,13509,30
 16,Reinickendorf,13509,30
 17,Tegel,13509,30
