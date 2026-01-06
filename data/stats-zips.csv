@@ -1,6 +1,6 @@
 ,district,zip,count
 0,Mitte,10179,360
-1,Mitte,10117,305
+1,Mitte,10117,320
 2,Mitte,10178,130
 3,Nikolassee,14163,102
 4,Zehlendorf,14163,102
@@ -25,12 +25,12 @@
 23,Gropiusstadt,12351,20
 24,Rudow,12351,20
 25,Kreuzberg,10999,17
-26,PrenzlauerBerg,10437,13
-27,Friedrichshagen,12587,12
-28,Britz,12099,12
-29,Mariendorf,12099,12
-30,Neukölln,12099,12
-31,Tempelhof,12099,12
+26,Britz,12099,14
+27,Mariendorf,12099,14
+28,Neukölln,12099,14
+29,Tempelhof,12099,14
+30,PrenzlauerBerg,10437,13
+31,Friedrichshagen,12587,12
 32,Köpenick,12559,11
 33,Müggelheim,12559,11
 34,Friedrichshain,10243,8
