@@ -1,6 +1,6 @@
 ,district,zip,count
 0,Mitte,10179,345
-1,Mitte,10117,316
+1,Mitte,10117,314
 2,Mitte,10178,175
 3,Kreuzberg,10999,116
 4,Charlottenburg,10627,100
@@ -42,9 +42,9 @@
 40,Köpenick,12559,9
 41,Müggelheim,12559,9
 42,Kreuzberg,10997,9
-43,Lichtenberg,10365,6
-44,Alt-Treptow,12435,6
-45,Plänterwald,12435,6
+43,Alt-Treptow,12435,6
+44,Plänterwald,12435,6
+45,Lichtenberg,10365,5
 46,Friedrichshain,10243,5
 47,Baumschulenweg,12437,5
 48,Johannisthal,12437,5
