@@ -1,6 +1,6 @@
 ,district,zip,count
 0,Mitte,10179,340
-1,Mitte,10117,307
+1,Mitte,10117,308
 2,Mitte,10178,176
 3,Kreuzberg,10999,113
 4,Charlottenburg,10627,99
@@ -13,9 +13,9 @@
 11,Zehlendorf,14163,49
 12,Gesundbrunnen,13347,49
 13,Wedding,13347,49
-14,Hansaviertel,10557,39
-15,Moabit,10557,39
-16,Tiergarten,10557,39
+14,Hansaviertel,10557,40
+15,Moabit,10557,40
+16,Tiergarten,10557,40
 17,Charlottenburg-Nord,13353,32
 18,Gesundbrunnen,13353,32
 19,Tiergarten,13353,32
@@ -39,9 +39,9 @@
 37,Neukölln,12099,11
 38,Tempelhof,12099,11
 39,PrenzlauerBerg,10437,10
-40,Köpenick,12559,9
-41,Müggelheim,12559,9
-42,Kreuzberg,10997,9
+40,Kreuzberg,10997,9
+41,Köpenick,12559,8
+42,Müggelheim,12559,8
 43,Mitte,10115,7
 44,Friedrichshain,10243,6
 45,Alt-Treptow,12435,6
@@ -109,7 +109,8 @@
 107,Neukölln,10967,1
 108,Nikolassee,14109,1
 109,Wannsee,14109,1
-110,Tegel,13507,1
-111,Adlershof,12489,1
-112,Johannisthal,12489,1
-113,Steglitz,12165,1
+110,Neukölln,12043,1
+111,Tegel,13507,1
+112,Adlershof,12489,1
+113,Johannisthal,12489,1
+114,Steglitz,12165,1
