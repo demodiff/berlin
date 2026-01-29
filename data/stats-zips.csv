@@ -1,6 +1,6 @@
 ,district,zip,count
 0,Mitte,10179,338
-1,Mitte,10117,303
+1,Mitte,10117,304
 2,Mitte,10178,173
 3,Kreuzberg,10999,115
 4,Charlottenburg,10627,98
@@ -24,9 +24,9 @@
 22,Reinickendorf,13509,30
 23,Tegel,13509,30
 24,Wittenau,13509,30
-25,Blankenburg,13129,22
-26,StadtrandsiedlungMalchow,13129,22
-27,Friedrichshagen,12587,16
+25,Friedrichshagen,12587,23
+26,Blankenburg,13129,22
+27,StadtrandsiedlungMalchow,13129,22
 28,Buch,13125,12
 29,FranzösischBuchholz,13125,12
 30,Karow,13125,12
@@ -34,8 +34,8 @@
 32,Mariendorf,12099,11
 33,Neukölln,12099,11
 34,Tempelhof,12099,11
-35,PrenzlauerBerg,10437,10
-36,Kreuzberg,10997,10
+35,Kreuzberg,10997,11
+36,PrenzlauerBerg,10437,10
 37,Mitte,10115,7
 38,Köpenick,12559,7
 39,Müggelheim,12559,7
