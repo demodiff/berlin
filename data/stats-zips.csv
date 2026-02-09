@@ -1,6 +1,6 @@
 ,district,zip,count
 0,Mitte,10179,327
-1,Mitte,10117,281
+1,Mitte,10117,285
 2,Mitte,10178,169
 3,Kreuzberg,10999,111
 4,Charlottenburg,10627,93
@@ -13,9 +13,9 @@
 11,Zehlendorf,14163,47
 12,Gesundbrunnen,13347,47
 13,Wedding,13347,47
-14,Hansaviertel,10557,39
-15,Moabit,10557,39
-16,Tiergarten,10557,39
+14,Hansaviertel,10557,40
+15,Moabit,10557,40
+16,Tiergarten,10557,40
 17,Charlottenburg-Nord,13353,30
 18,Gesundbrunnen,13353,30
 19,Tiergarten,13353,30
