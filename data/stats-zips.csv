@@ -1,7 +1,7 @@
 ,district,zip,count
-0,Mitte,10117,271
+0,Mitte,10117,272
 1,Mitte,10179,229
-2,Kreuzberg,10999,112
+2,Kreuzberg,10999,113
 3,Mitte,10178,107
 4,Charlottenburg,10627,66
 5,Nikolassee,14163,55
@@ -38,7 +38,7 @@
 36,Mariendorf,12099,11
 37,Neukölln,12099,11
 38,Tempelhof,12099,11
-39,Kreuzberg,10997,11
+39,Kreuzberg,10997,10
 40,Buch,13125,10
 41,FranzösischBuchholz,13125,10
 42,Karow,13125,10
