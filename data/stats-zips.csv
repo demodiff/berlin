@@ -1,6 +1,6 @@
 ,district,zip,count
-0,Mitte,10117,251
-1,Mitte,10179,218
+0,Mitte,10117,256
+1,Mitte,10179,219
 2,Alt-Treptow,12435,170
 3,Plänterwald,12435,170
 4,Hansaviertel,10557,121
@@ -42,9 +42,9 @@
 40,Charlottenburg,10787,8
 41,Schöneberg,10787,8
 42,Tiergarten,10787,8
-43,Köpenick,12555,7
-44,Köpenick,12559,6
-45,Müggelheim,12559,6
+43,Köpenick,12559,7
+44,Müggelheim,12559,7
+45,Köpenick,12555,7
 46,Blankenburg,13129,5
 47,StadtrandsiedlungMalchow,13129,5
 48,Charlottenburg,10789,5
