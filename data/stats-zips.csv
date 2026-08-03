@@ -1,5 +1,5 @@
 ,district,zip,count
-0,Mitte,10117,272
+0,Mitte,10117,278
 1,Mitte,10179,152
 2,Hansaviertel,10557,129
 3,Moabit,10557,129
@@ -31,7 +31,7 @@
 29,Wedding,13347,24
 30,Weißensee,13086,22
 31,Pankow,13187,21
-32,Kreuzberg,10997,9
+32,Kreuzberg,10997,10
 33,Friedrichshagen,12587,8
 34,Britz,12099,8
 35,Mariendorf,12099,8
@@ -46,10 +46,10 @@
 44,Gesundbrunnen,13353,5
 45,Tiergarten,13353,5
 46,Wedding,13353,5
-47,Friedrichshain,10245,5
-48,Charlottenburg,10789,4
-49,Schöneberg,10789,4
-50,Wilmersdorf,10789,4
+47,Charlottenburg,10789,5
+48,Schöneberg,10789,5
+49,Wilmersdorf,10789,5
+50,Friedrichshain,10245,5
 51,Lichtenberg,10365,4
 52,Kreuzberg,10967,3
 53,Neukölln,10967,3
