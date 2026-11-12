@@ -1,5 +1,5 @@
 ,district,zip,count
-0,Mitte,10117,123
+0,Mitte,10117,124
 1,Hansaviertel,10557,83
 2,Moabit,10557,83
 3,Tiergarten,10557,83
@@ -22,7 +22,7 @@
 20,StadtrandsiedlungMalchow,13129,33
 21,Friedenau,12163,31
 22,Steglitz,12163,31
-23,Mitte,10178,29
+23,Mitte,10178,24
 24,Britz,12099,21
 25,Mariendorf,12099,21
 26,Neukölln,12099,21
@@ -98,9 +98,7 @@
 96,Mahlsdorf,12623,1
 97,Friedenau,10827,1
 98,Schöneberg,10827,1
-99,Kreuzberg,10969,1
-100,Mitte,10969,1
-101,Neukölln,12055,1
-102,Charlottenburg,10789,1
-103,Schöneberg,10789,1
-104,Wilmersdorf,10789,1
+99,Neukölln,12055,1
+100,Charlottenburg,10789,1
+101,Schöneberg,10789,1
+102,Wilmersdorf,10789,1
